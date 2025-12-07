@@ -40,11 +40,20 @@ const Footer: React.FC = () => {
             <a href="#" className="hover:text-teal-200 transition-colors uppercase interactive">Terms</a>
             <a href="#" className="hover:text-teal-200 transition-colors uppercase interactive">Privacy</a>
             <a href="#" className="hover:text-teal-200 transition-colors uppercase interactive">Support</a>
-            <a href="#" className="hover:text-teal-200 transition-colors uppercase interactive">Instagram</a>
+            {/* Instagram Link Updated */}
+            <a 
+              href="https://www.instagram.com/somnium_vault" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-teal-200 transition-colors uppercase interactive"
+            >
+              Instagram
+            </a>
           </div>
 
           <div className="text-[10px] text-gray-700 font-mono tracking-widest">
-             © 2088 / ALL RIGHTS RESERVED
+             {/* Copyright Text Location */}
+             © Narim Jeong / ALL RIGHTS RESERVED
           </div>
         </div>
       </div>
