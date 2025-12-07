@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             <a href="#" className="hover:text-teal-200 transition-colors uppercase interactive">Support</a>
             {/* Instagram Link Updated */}
             <a 
-              href="https://www.instagram.com/somnium_vault" 
+              href="https://www.instagram.com/somnium.vault" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-teal-200 transition-colors uppercase interactive"
